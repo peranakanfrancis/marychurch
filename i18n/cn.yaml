@@ -1,0 +1,110 @@
+- id: read_more
+  translation: 阅读更多
+
+- id: contact_form
+  translation: 联系表格
+
+- id: send
+  translation: 发送
+
+- id: contact_info
+  translation: 联络方式
+
+- id: subscribe_newsletter
+  translation: 网上电子阅读报刊
+
+- id: subscribe
+  translation: 订阅
+
+- id: contact_us
+  translation: 联络我们
+
+- id: latest_article
+  translation: 最新发布
+
+- id: categories
+  translation: 更多类别
+
+- id: tags
+  translation: 标签
+
+- id: see_all
+  translation: 阅读更多
+
+- id: apply_now
+  translation: 登记注册
+
+- id: posted_by
+  translation: 作者
+
+- id: date
+  translation: 日期
+
+- id: time
+  translation: 时间
+
+- id: category
+  translation: 类别
+
+- id: related_course
+  translation: 其他圣事
+
+- id: duration
+  translation: 为期
+
+- id: weekly
+  translation: 每周
+
+- id: fee
+  translation: 费用
+
+- id: teacher
+  translation: 司铎
+
+- id: location
+  translation: 地点
+
+- id: entry_fee
+  translation: 入门费
+
+- id: event_speaker
+  translation: 演讲者
+
+- id: more_event
+  translation: 更多活动
+
+- id: join
+  translation: 订阅
+
+- id: enter_email
+  translation: 您的电子邮箱。。。
+
+- id: company
+  translation: 关于教堂
+
+- id: links
+  translation: 教会圣事及弥撒
+
+- id: courses
+  translation: 租用教堂及募款
+
+- id: new_notice
+  translation: 最新发布及活动
+
+- id: call
+  translation: 联络
+
+- id: email
+  translation: 电子邮箱
+
+- id: all
+  translation: 全部
+
+- id: interest
+  translation: 节目概括
+
+- id: our_teachers
+  translation: 我们的神父
+
+- id: download
+  translation: 下载

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clergy on Church of Holy Mary | 巴冬丁宜圣母圣名堂</title>
+    <link>/teacher/</link>
+    <description>Recent content in Clergy on Church of Holy Mary | 巴冬丁宜圣母圣名堂</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2021 Church of Holy Name of Mary | co-work with [MyBetterWebsite](https://peranakanfrancis.github.io/mybetterwebsite)</copyright><atom:link href="/teacher/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Father Louis</title>
+      <link>/teacher/father-louis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teacher/father-louis/</guid>
+      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Sister Elizabeth</title>
+      <link>/teacher/sister-elizabeth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teacher/sister-elizabeth/</guid>
+      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

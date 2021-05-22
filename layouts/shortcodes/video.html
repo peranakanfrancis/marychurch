@@ -1,0 +1,5 @@
+<figure {{ with .Get "class" }}class="{{ . }}"{{ end }}>
+  <video id="player" playsinline controls data-poster="{{ . | relURL }}">
+  {{ with .Get "src" }}<source src="{{ .  | relURL }}" type="video/mp4">{{ end }}
+  </video>
+</figure>

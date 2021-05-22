@@ -1,0 +1,137 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-2.jpg"
+  slider_item:
+    # slider item loop
+    - title : "SATURDAY 6PM & SUNDAY 830AM"
+      content : "The angel went to her and said, Greetings, you who are highly favored! The Lord is with you. - [Luke 1:28]"
+      animation_in : "up"
+      animation_out : "down"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Register Now"
+        # use typeform chat pop out
+        link : "#"
+
+    # slider item loop
+    - title : "FUNDRAISING FOR NEW CHURCH"
+      content : "Don't you realize that those who work in the temple get their meals from the offerings brought to the temple? And those who serve at the altar get a share of the sacrificial offerings. - [1 Corinthians 9:13]"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Donate Now"
+        link : "#"
+
+    # slider item loop
+    - title : "MASS OFFERINGS"
+      content : "And I tell you, ask and you will receive; seek and you will find; knock and the door will be opened to you. For everyone who asks, receives; and the one who seeks, finds; and to the one who knocks, the door will be opened. - [Luke 11: 9-10]"
+      animation_in : "right"
+      animation_out : "left"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Prayer Request"
+        link : "#"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-5.png"
+  feature_item:
+    # feature item loop
+    - name : "BUT THE FRUIT OF THE SPIRIT IS LOVE, JOY, PEACE, FORBEARANCE, KINDNESS, GOODNESS, FAITHFULNESS, GENTLENESS AND SELF-CONTROL. ***[GALATIANS 5:22]***"
+      icon : "fas fa-dove" # icon pack : https://themify.me/themify-icons
+      content : "The Catholic family is made up of every race that spans the globe; young and old, rich and poor, men and women. It is one of the largest charitable organizations on the planet starting hospitals to care for the sick and orphanages to aid the poor. The Catholic Church can help fill voids and can help you find peace."
+
+    # feature item loop
+    - name : "I AM THE WAY, THE TRUTH, AND THE LIFE. NO ONE COMES TO THE FATHER EXCEPT THROUGH ME. ***[JOHN 14:6]***"
+      icon : "fas fa-bible" # icon pack : https://themify.me/themify-icons
+      content : "We are followers of Jesus Christ, who lived 2000 years ago and taught His disciples to live a life of outstanding care and concern for one another, to uphold the highest standards of sexual morality, and to offer forgiveness and compassion to those who acknowledge their inability to live out these ideals consistently."
+
+############################## about ##################################
+about:
+  enable : true
+  title : "YOU ARE PETER, AND UPON THIS ROCK I WILL BUILD MY CHURCH. [MATTHEW 16:18]"
+  image : "images/about/about-us-14.jpg"
+  content : "Welcome to **The Church of The Holy Name of Mary**! We are located short distance from Penang-Kuala Lumpur North-South Expressway in Permatang Tinggi.
+
+
+  Over 1700 families strong, our parish serves the small town in Central Seberang Perai District and the surrounding area. In addition to Daily Mass and the Sacraments, we offer all sacraments and outreach ministries.  Come explore who we are and what we have to offer to help you grow in holiness and your Catholic faith."
+  button:
+    enable : true
+    label : "See our story"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Sacraments"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "In this often confused and hurting world there are many reasons for people to be searching for happiness and something more in their lives, but they do not always know where to turn."
+  title : "THE CATHOLIC FAITH INVITES ALL OF GOD’S CHILDREN TO A RELATIONSHIP WITH JESUS CHRIST."
+  button:
+    enable : true
+    label : "Becoming a Catholic"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/about/about-us-7.png"
+  title : "Adoration Prayer for the sick"
+  content : "**The resurrected Lord Jesus beyond time and space gives you healing in the air by ***Sister Soon*****
+
+
+  Our Lord has risen! He is the God of life, right by our side! In this resurrection period, let us ask Jesus for the grace of healing, and many of us need Him to heal our body and soul. Don't miss this online healing event, please share!"
+
+# video link
+  video_link : "https://youtu.be/eyQPzd-xVTk"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "YEARS ESTABLSHED"
+      count : "127"
+
+    # funfact item loop
+    - name : "PAST PASTORS"
+      count : "37"
+
+    # funfact item loop
+    - name : "SERVED FAMILY"
+      count : "5000"
+
+    # funfact item loop
+    - name : "MASS HELD"
+      count : "46355"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Latest Updates"
+  # blog item comes from "content/**/blog" folder.

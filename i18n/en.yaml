@@ -1,0 +1,110 @@
+- id: read_more
+  translation: Read More
+
+- id: contact_form
+  translation: Contact Form
+
+- id: send
+  translation: send message
+
+- id: contact_info
+  translation: Contact Info
+
+- id: subscribe_newsletter
+  translation: Subscribe Newsletter
+
+- id: subscribe
+  translation: Subscribe
+
+- id: contact_us
+  translation: Contact Us
+
+- id: latest_article
+  translation: Latest Updates
+
+- id: categories
+  translation: Categories
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: See all
+
+- id: apply_now
+  translation: Book an appointment
+
+- id: posted_by
+  translation: Posted by
+
+- id: date
+  translation: Date
+
+- id: time
+  translation: time
+
+- id: category
+  translation: Category
+
+- id: related_course
+  translation: Sacraments
+
+- id: duration
+  translation: Apply Before
+
+- id: weekly
+  translation: Take Times
+
+- id: fee
+  translation: fee
+
+- id: teacher
+  translation: clergy
+
+- id: location
+  translation: location
+
+- id: entry_fee
+  translation: entry fee
+
+- id: event_speaker
+  translation: Event Speakers
+
+- id: more_event
+  translation: More Events
+
+- id: join
+  translation: Join
+
+- id: enter_email
+  translation: Enter your email…
+
+- id: company
+  translation: About Parish
+
+- id: links
+  translation: Sacraments & Services
+
+- id: courses
+  translation: Business & Fundraising
+
+- id: new_notice
+  translation: New & Updates
+
+- id: call
+  translation: call
+
+- id: email
+  translation: email
+
+- id: all
+  translation: All
+
+- id: interest
+  translation: SUMMARY OF ACTIVITIES/INTERESTS
+
+- id: our_teachers
+  translation: Our Priest, Religious Brother & Sister
+
+- id: download
+  translation: Download

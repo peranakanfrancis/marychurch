@@ -1,0 +1,401 @@
+######################## default configuration ####################
+baseURL = ""
+title = "Church of Holy Mary | 巴冬丁宜圣母圣名堂"
+theme = "educenter-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "churchofholymary" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+publishDir = "docs"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/photoswipe/hugo-easy-gallery.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[[params.plugins.js]]
+link ="plugins/photoswipe/load-photoswipe.js"
+[[params.plugins.js]]
+link ="plugins/onesignal/OneSignalSDKUpdaterWorker.js"
+[[params.plugins.js]]
+link ="plugins/onesignal/OneSignalSDKWorker.js"
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.jpeg"
+# Meta data
+description = "Church of Holy Name of Mary is where anyone can be transformed by the story of Jesus. Come worship Jesus with us, you may come in as a stranger but you'll leave as family."
+author = "Father Louis"
+# contact info
+intro = "At Church of The Holy Name of Mary we're here about Jesus — We gather every week to pray to Jesus, sing about Jesus, and to hear teaching from the Bible about how God is accomplishing his plan to rescue the world through Jesus."
+address = "Jalan Besar, Permatang Tinggi, 14000 Bukit Mertajam, Pulau Pinang"
+mobile = "+6045887799"
+email = "info@churchofholymary.com"
+google_map_location = "https://goo.gl/maps/jEHPWje8rqMSUxDRA"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# top header
+top_header = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = true
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDWCflAaXImeZKEr_K4texSH6sB_QIVQyY&v=3"
+map_latitude = "5.2947"
+map_longitude = "100.4795"
+map_marker = "images/marker.png" # marker size 37*55 px
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "fab fa-facebook-f" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/groups/226337511747"
+
+[[params.social]]
+title = "messenger"
+icon = "fab fa-facebook-messenger" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/messages/t/210084349040246"
+
+[[params.social]]
+title = "google maps"
+icon = "fab fa-google" # themify icon : https://themify.me/themify-icons
+link = "https://goo.gl/maps/KrdspqMCE5Ph75Qe7"
+
+#[[params.social]]
+#title = "youtube"
+#icon = "fab fa-youtube" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+#[[params.social]]
+#title = "instagram"
+#icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+title = "whatsapp"
+icon = "fab fa-whatsapp" # themify icon : https://themify.me/themify-icons
+link = "https://wa.link/sfi0w8"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2021 Church of Holy Name of Mary | co-work with [MyBetterWebsite](https://peranakanfrancis.github.io/mybetterwebsite)"
+
+
+
+################### English navigation ####################
+
+# main menu
+[[Languages.en.menu.main]]
+name = "About"
+hasChildren = true
+weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "About"
+  name = "Our Story"
+  url = "about"
+
+  [[Languages.en.menu.main]]
+  parent = "About"
+  name = "Clergy"
+  url = "teacher"
+
+
+[[Languages.en.menu.main]]
+name = "Sacraments"
+url = "course"
+weight = 2
+
+[[Languages.en.menu.main]]
+weight = 3
+name = "Updates"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Updates"
+  name = "Blog"
+  url = "blog"
+
+  [[Languages.en.menu.main]]
+  parent = "Updates"
+  name = "Bulletin"
+  url = "notice"
+
+  [[Languages.en.menu.main]]
+  parent = "Updates"
+  name = "Event"
+  url = "event"
+
+  [[Languages.en.menu.main]]
+  parent = "Updates"
+  name = "Resources"
+  url = "research"
+
+  [[Languages.en.menu.main]]
+  parent = "Updates"
+  name = "Donation"
+  url = "scholarship"
+
+[[Languages.en.menu.main]]
+name = "Contact"
+#hasChildren = true
+url = "contact"
+weight = 4
+
+# footer menu
+
+[[Languages.en.menu.footer]]
+name = "Sacraments"
+url = "course"
+
+[[Languages.en.menu.footer]]
+name = "Clergy"
+url = "teacher"
+
+[[Languages.en.menu.footer]]
+name = "Ministries"
+url = "event"
+
+[[Languages.en.menu.footer]]
+name = "Donation"
+url = "scholarship"
+
+[[Languages.en.menu.footer]]
+name = "Contact"
+url = "contact"
+
+################################### 中文 language #####################################
+[Languages.cn]
+languageName = "中文"
+languageCode = "zh-cn"
+contentDir = "content/chinese"
+weight = 2
+home = "首页"
+copyright = "Copyright &copy; 2021 巴冬丁宜圣母圣名堂 | 配合制作 [MyBetterWebsite](https://peranakanfrancis.github.io/mybetterwebsite)"
+
+
+
+################### 中文 navigation ####################
+
+## main menu
+[[Languages.cn.menu.main]]
+name = "关于我们"
+url = "about"
+weight = 1
+
+[[Languages.cn.menu.main]]
+name = "教会圣事"
+url = "course"
+weight = 2
+
+[[Languages.cn.menu.main]]
+weight = 3
+name = "堂区资讯"
+hasChildren = true
+
+  [[Languages.cn.menu.main]]
+  parent = "堂区资讯"
+  name = "神职人员"
+  url = "teacher"
+
+  [[Languages.cn.menu.main]]
+  parent = "堂区资讯"
+  name = "notice"
+  url = "notice"
+
+  [[Languages.cn.menu.main]]
+  parent = "堂区资讯"
+  name = "Évènement"
+  url = "event"
+
+  [[Languages.cn.menu.main]]
+  parent = "堂区资讯"
+  name = "Cursus"
+  url = "scholarship"
+
+  [[Languages.cn.menu.main]]
+  parent = "堂区资讯"
+  name = "research"
+  url = "research"
+
+[[Languages.cn.menu.main]]
+name = "最新发布"
+url = "blog"
+weight = 4
+
+[[Languages.cn.menu.main]]
+name = "联络我们"
+url = "contact"
+weight = 5
+
+
+## footer menu
+
+[[Languages.cn.menu.footer]]
+name = "神职人员"
+url = "teacher"
+
+[[Languages.cn.menu.footer]]
+name = "每周通讯"
+url = "notice"
+
+[[Languages.cn.menu.footer]]
+name = "所有活动"
+url = "event"
+
+[[Languages.cn.menu.footer]]
+name = "信仰陶成"
+url = "scholarship"
+
+[[Languages.cn.menu.footer]]
+name = "事奉善会"
+url = "research"
+
+
+################################### French/ language #####################################
+[Languages.ta]
+languageName = "தமிழ்"
+languageCode = "fr-fr"
+contentDir = "content/tamil"
+weight = 2
+home = "வீடு"
+# copyright
+copyright = "Copyright &copy; 2021 Church of Holy Name of Mary | co-work with [MyBetterWebsite](https://peranakanfrancis.github.io/mybetterwebsite)"
+
+
+
+################### Tamil navigation ####################
+
+# main menu
+[[Languages.ta.menu.main]]
+name = "À propos"
+url = "about"
+weight = 1
+
+[[Languages.ta.menu.main]]
+name = "Cours"
+url = "course"
+weight = 2
+
+[[Languages.ta.menu.main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[Languages.ta.menu.main]]
+  parent = "Pages"
+  name = "teacher"
+  url = "teacher"
+
+  [[Languages.ta.menu.main]]
+  parent = "Pages"
+  name = "notice"
+  url = "notice"
+
+  [[Languages.ta.menu.main]]
+  parent = "Pages"
+  name = "Évènement"
+  url = "event"
+
+  [[Languages.ta.menu.main]]
+  parent = "Pages"
+  name = "Cursus"
+  url = "scholarship"
+
+  [[Languages.ta.menu.main]]
+  parent = "Pages"
+  name = "research"
+  url = "research"
+
+[[Languages.ta.menu.main]]
+name = "blog"
+url = "blog"
+weight = 4
+
+[[Languages.ta.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+
+# footer menu
+
+[[Languages.ta.menu.footer]]
+name = "teacher"
+url = "teacher"
+
+[[Languages.ta.menu.footer]]
+name = "notice"
+url = "notice"
+
+[[Languages.ta.menu.footer]]
+name = "event"
+url = "event"
+
+[[Languages.ta.menu.footer]]
+name = "scholarship"
+url = "scholarship"
+
+[[Languages.ta.menu.footer]]
+name = "research"
+url = "research"

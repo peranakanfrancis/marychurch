@@ -1,0 +1,142 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-2.jpg"
+  slider_item:
+    # slider item loop
+    - title : "主日弥撒 周日830AM // 英文弥撒 周六6PM"
+      content : "天使进去，对他说：蒙大恩的女子，我问你安，主和你同在了！-【路加福音 1：28】"
+      animation_in : "up"
+      animation_out : "down"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "线上登记"
+        # use typeform chat pop out
+        link : "#"
+
+    # slider item loop
+    - title : "同心协力建新堂"
+      content : "你们岂不知为圣事劳碌的就吃殿中的物麽？伺候祭坛的就分领坛上的物麽？主也是这样命定，叫传福音的靠着福音养生。-【1哥林多前书 9：13-14】"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "协助募款"
+        link : "contact"
+
+    # slider item loop
+    - title : "弥撒奉献"
+      content : "我又告诉你们，你们祈求，就给你们；寻找，就寻见；叩门，就给你们开门。因为，凡祈求的，就得着；寻找的，就寻见；叩门的，就给他开门。-【路加福音 11：9-10】"
+      animation_in : "right"
+      animation_out : "left"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "祈祷意向"
+        link : "#"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-5.png"
+  feature_item:
+    # feature item loop
+    - name : "但圣神所结的果子是仁爱、喜乐、和平、忍耐、恩慈、良善、信实、温柔、节制。 ***-【加拉太书 5：22】***"
+      icon : "fas fa-dove" # icon pack : https://themify.me/themify-icons
+      content : "天主教家庭由跨越全球的每一种族群组成; 老少, 贫富，男，女。她是地球上最大的慈善组织之一，开始成立医院照顾病人和建立孤儿院帮助穷人。天主教会可以帮助您填补空虚并找到平安。"
+
+    # feature item loop
+    - name : "我就是道路，真理，生命。若不借着我，没有人能到父那里去。***-【约一四：6】***"
+      icon : "fas fa-bible" # icon pack : https://themify.me/themify-icons
+      content : "我们是耶稣基督的追随者，耶稣基督生活在2000年前，教导他的门徒过上彼此关心和关心的生活，坚持最高的性道德标准，并向那些承认自己软落的人提供宽恕和同情。始终如一地实现这些理想。"
+
+############################## about ##################################
+about:
+  enable : true
+  title : "你是伯多祿（磐石），在這磐石上，我要建立我的教會。***-【玛窦福音16:18】***"
+  image : "images/about/about-us-13.jpg"
+  content : "欢迎来到圣母圣名堂！ 我们的教堂坐落在巴冬丁宜，距离居林、爪义、武吉淡文南北大道不远。
+
+
+我们的教区有1700多个家庭，为威中、威南和周边地区的小镇提供服务。 除了每日弥撒和圣礼外，我们还提供教会圣事及事奉善会服务。 快来探索我们是谁以及我们能提供什么帮助您在圣洁和天主教信仰中成长。"
+  button:
+    enable : true
+    label : "关于我们"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "教会圣事"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "也许您发现自己每天都在情感上挣扎，而您的生活却无法实现，需要一些指导。 您成为的人不是您原本想成为的人，也不是您想成为的人。 也许您曾呼吁过一种更加属灵的，宗教的生活，但多年来没有去过教堂，但是您知道自己想回到以基督徒为基础的生活。 在这个经常感到困惑和痛苦的世界中，人们有很多理由寻求幸福和生活中更多的东西，但他们并不总是知道该向何处去。"
+  title : "天主教信仰邀请所有天父的孩子与耶稣基督建立关系。"
+  button:
+    enable : true
+    label : "联络本堂神父"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/about/about-us-7.png"
+  title : "教友祈祷文"
+  content : "慈爱的天父、感谢祢！清晨、唤醒我们，让我们在祈祷中与祢相遇！黑夜已经过去，新的一天，求祢快到我们心里来，驱散我们心中一切的苦闷、和不愉快的情绪，让黑暗远离我们，让喜乐和平安，充满我们的心！
+主，祢爱所有人，祢渴望、我们每个人都能平平安安、灵魂得救！
+
+
+**祢告诉我们说：有一百只羊，如果其中一只迷了路，祢也会放下那九十九只，去寻找那一只迷失的羊（18:12-14）。**
+是的主，我们都是迷失的羔羊。世界再美好，将来有一天，我们都要离开！救灵魂，才是今生最重要的事。但很多时候，我们在生活、家庭、工作、救灵魂这些事情中，总是把救灵魂的事，排在最后。追求生活的幸福，祢并不反对。但是，把世界当成永久的家，把心思都用在讨好肉身上，忘了救灵魂，就是我们最大的糊涂。
+
+
+现在、是圣母月。恩典的时期，求祢赐给我们生活中的恩典，更赐给我们灵魂得救的恩典。今天，让我们把心敞开，完全属于祢。也让我们的家庭，无论大人还是孩子，都能全心归向祢。求祢把我们这些迷失的羔羊都抱在祢的怀里，将来灵魂得救，在天上、永远赞美祢。祢是天主，永生永王，阿们。"
+
+# video link
+  video_link : "https://youtu.be/eyQPzd-xVTk"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "即将到来的活动"
+  # event item comes from "content/**/event" folder.
+
+
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "年的历史风雨"
+      count : "127"
+
+    # funfact item loop
+    - name : "个堂区神父历任"
+      count : "37"
+
+    # funfact item loop
+    - name : "多个天主教家庭"
+      count : "5000"
+
+    # funfact item loop
+    - name : "余场弥撒举行"
+      count : "13000"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "最新发布"
+  # blog item comes from "content/**/blog" folder.
