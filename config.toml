@@ -9,7 +9,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "churchofholymary" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["ta", "cn"] # desable language from here
 publishDir = "docs"
 
 [markup.goldmark.renderer]
@@ -35,14 +35,14 @@ link = "plugins/photoswipe/hugo-easy-gallery.css"
 # JS Plugins
 #[[params.plugins.js]]
 #link = "plugins/jQuery/jquery.min.js"
-#[[params.plugins.js]]
-#link = "plugins/bootstrap/bootstrap.min.js"
-#[[params.plugins.js]]
-#link = "plugins/slick/slick.min.js"
-#[[params.plugins.js]]
-#link = "plugins/venobox/venobox.min.js"
-#[[params.plugins.js]]
-#link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 [[params.plugins.js]]
