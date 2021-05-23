@@ -9,7 +9,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "churchofholymary" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["ta", "cn"] # desable language from here
 publishDir = "docs"
 
 [markup.goldmark.renderer]
